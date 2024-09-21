@@ -1,0 +1,117 @@
+name: user_register
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # to use svg icons
+  flutter_svg: ^2.0.7
+  # state mangment
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  get_it: ^7.2.0
+  # use json decode
+  freezed: ^2.4.3
+  json_serializable: ^6.7.0
+  json_annotation: ^4.9.0
+  dartz: ^0.10.1
+  freezed_annotation: ^2.4.1
+  # for api
+  dio: ^5.5.0+1
+  # Flutter plugin for local db for small data
+  shared_preferences: ^2.0.6
+  # use for shimmer loading
+  shimmer: ^3.0.0
+  # The package provides TextInputFormatter for TextField and TextFormField
+  # which format the input by a given mask.
+  mask_text_input_formatter: ^2.5.0
+  # Connect your translations in Flutter
+  intl: ^0.19.0
+  intl_utils: ^2.8.5
+  # for animation
+  animate_do: ^3.0.2
+  carousel_slider: ^5.0.0
+  cached_network_image: ^3.4.0
+  # for animation button
+  scale_button: ^2.1.2
+  # for map and location
+  yandex_mapkit: ^4.1.0
+  geolocator: ^13.0.1
+  # for permission
+  permission_handler: ^11.3.1
+  #
+  expandable_bottom_sheet: ^1.1.1+1
+  # Circular and Linear percent indicators
+  percent_indicator: ^4.2.3
+  # Page indicators are a crucial part of any app that involves multiple pages. They help users to
+  #understand the number of pages and their current position
+  smooth_page_indicator: ^1.2.0+3
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.0
+  flutter_layout_grid: ^2.0.7
+  # This plugin allows Flutter apps to discover network connectivity and
+  # configure themselves accordingly. It can distinguish between cellular vs WiFi connection.
+  connectivity_plus: ^5.0.2
+
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.6.0
+  docx_template: ^0.4.0
+  open_filex: ^4.5.0
+  archive: ^3.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/files/
+    - assets/icons/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
